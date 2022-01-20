@@ -14,7 +14,7 @@ catch {
 }
 
 #Pull in an array of servers from a text file (Each new line in the file is a new element)
-$servers = Get-Content -Path F:\servers.txt
+$servers = Get-Content -Path C:\servers.txt
 
 foreach ($server in $servers) {
     try {
